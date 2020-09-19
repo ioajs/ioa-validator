@@ -1,7 +1,7 @@
 {
   "name": "@ioa/validator",
-  "version": "9.8.0",
-  "description": "koa 中间件验证器",
+  "version": "9.8.2",
+  "description": "ioa / koa 中间件验证器",
   "scripts": {
     "publish": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"

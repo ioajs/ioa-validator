@@ -1,9 +1,13 @@
 'use strict';
 
-const { router, validator } = require('@app');
+const { router, middleware } = require('@app');
 
-router.get('/', validator.home, 'home');
+const { validator } = middleware;
 
-router.get('/sms/:name/:sub', validator.sms, 'sms');
+router.get('/', validator('home', 'strictVerify'), 'home');
 
-router.post('/login', validator.login, 'login');
+router.get('/test', 'test');
+
+router.get('/sms/:name/:sub', validator('sms'), 'sms');
+
+router.post('/login', validator('login'), 'login');
