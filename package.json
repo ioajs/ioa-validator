@@ -1,7 +1,7 @@
 {
   "name": "@ioa/validator",
-  "version": "9.8.5",
-  "description": "ioa / koa 中间件验证器",
+  "version": "10.0.0",
+  "description": "ioa / koa 中间件数据验证器",
   "scripts": {
     "publish": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,18 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ioa/koa": "^9.8.3",
-    "ioa-router": "^9.8.2",
-    "koa": "^2.11.0",
-    "koa-bodyparser": "^4.3.0",
     "typea": "^5.2.0"
   },
   "files": [
     "lib"
   ],
   "devDependencies": {
-    "@ioa/config": "^9.5.0",
+    "@ioa/config": "^10.0.0",
+    "@ioa/koa": "^9.8.3",
     "axios": "^0.20.0",
-    "ioa": "^9.8.10"
+    "ioa": "^10.0.2",
+    "ioa-router": "^9.8.2"
   }
 }
