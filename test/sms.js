@@ -1,5 +1,5 @@
-const test = require('jmr');
-const axios = require('axios');
+import test from 'jtm';
+import axios from 'axios';
 
 
 test('get /sms/:name/:sub', async t => {

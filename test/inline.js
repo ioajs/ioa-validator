@@ -1,3 +1,5 @@
+import test from 'jtm';
+import axios from 'axios';
 
 test('get /inline', async t => {
 

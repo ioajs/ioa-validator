@@ -17,8 +17,8 @@
   ],
   "devDependencies": {
     "@ioa/config": "^11.0.1",
-    "@ioa/koa": "^10.0.2",
+    "@ioa/koa": "^11.0.0",
     "axios": "^0.20.0",
-    "ioa": "^11.0.4-rc"
+    "ioa": "^11.0.5-rc"
   }
 }
