@@ -1,5 +1,3 @@
-'use strict';
-
 require('./index.js');
 const axios = require('axios');
 

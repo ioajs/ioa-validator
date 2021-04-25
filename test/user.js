@@ -1,5 +1,3 @@
-'use strict';
-
 const test = require('jmr');
 const axios = require('axios');
 

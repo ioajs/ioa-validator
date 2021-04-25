@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = async function (ctx) {
+export default async function (ctx) {
 
   const { body } = ctx.request;
 

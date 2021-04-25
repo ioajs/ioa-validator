@@ -1,10 +1,10 @@
-'use strict';
+import ioa from 'ioa';
 
-const { router, middleware } = require('@app');
+const { router, middleware } = ioa.app;
 
 const { validator } = middleware;
 
-router.get('/', validator('home', 'strictVerify'), 'home');
+router.get('/', validator('home', true), 'home');
 
 router.get('/test', 'test');
 

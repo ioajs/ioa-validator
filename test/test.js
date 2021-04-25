@@ -1,7 +1,3 @@
-'use strict';
-
-const test = require('jmr');
-const axios = require('axios');
 
 test('get /test', async t => {
 

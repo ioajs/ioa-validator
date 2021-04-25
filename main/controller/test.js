@@ -1,8 +1,8 @@
-'use strict';
+import ioa from 'ioa';
 
-const { validator } = require('@app');
+const { validator } = ioa.app;
 
-module.exports = async function (ctx) {
+export default async function (ctx) {
 
   const { data } = validator.query.verify(ctx);
 

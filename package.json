@@ -1,6 +1,7 @@
 {
   "name": "@ioa/validator",
-  "version": "10.0.0",
+  "version": "11.0.0",
+  "type": "module",
   "description": "ioa / koa 中间件数据验证器",
   "scripts": {
     "publish": "npm publish --access public",
@@ -15,10 +16,9 @@
     "lib"
   ],
   "devDependencies": {
-    "@ioa/config": "^10.0.0",
-    "@ioa/koa": "^9.8.3",
+    "@ioa/config": "^11.0.1",
+    "@ioa/koa": "^10.0.2",
     "axios": "^0.20.0",
-    "ioa": "^10.0.2",
-    "ioa-router": "^9.8.2"
+    "ioa": "^11.0.4-rc"
   }
 }
