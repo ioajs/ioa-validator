@@ -1,10 +1,10 @@
 {
   "name": "@ioa/validator",
-  "version": "11.0.0",
+  "version": "11.0.1",
   "type": "module",
   "description": "ioa / koa 中间件数据验证器",
   "scripts": {
-    "publish": "npm publish --access public",
+    "public": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,9 +16,9 @@
     "lib"
   ],
   "devDependencies": {
-    "@ioa/config": "^11.0.1",
-    "@ioa/koa": "^11.0.0",
+    "@ioa/config": "^11.0.3",
+    "@ioa/koa": "^11.0.2",
     "axios": "^0.20.0",
-    "ioa": "^11.0.5-rc"
+    "ioa": "^11.0.6"
   }
 }
