@@ -1,6 +1,6 @@
 {
   "name": "@ioa/validator",
-  "version": "11.0.2",
+  "version": "11.1.0",
   "type": "module",
   "description": "ioa / koa 中间件数据验证器",
   "scripts": {
@@ -17,8 +17,8 @@
   ],
   "devDependencies": {
     "@ioa/config": "^11.0.4",
-    "@ioa/koa": "^11.0.4",
+    "@ioa/koa": "^11.1.0",
     "axios": "^0.20.0",
-    "ioa": "^11.0.10"
+    "ioa": "^11.1.1"
   }
 }
