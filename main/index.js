@@ -1,7 +1,7 @@
-import ioa from 'ioa';
-
-const { app } = ioa;
-
-app.use("@ioa/config");
-app.use("@ioa/koa");
-app.use("./lib");
+export default {
+  components: [
+    "@ioa/config",
+    "@ioa/koa",
+    "./lib"
+  ]
+}
