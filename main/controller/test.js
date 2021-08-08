@@ -1,6 +1,6 @@
 import ioa from 'ioa';
 
-const { validator } = ioa.app;
+const { validator } = ioa.app();
 
 export default async function (ctx) {
 
