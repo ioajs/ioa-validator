@@ -5,7 +5,7 @@
   "description": "ioa / koa 中间件数据验证器",
   "scripts": {
     "public": "npm publish --access public",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jtm"
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +18,7 @@
   "devDependencies": {
     "@ioa/config": "^12.0.0",
     "@ioa/koa": "^12.0.4",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "ioa": "^12.0.3"
   }
 }
