@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "typea": "^7.2.0"
+    "typea": "^7.4.0"
   },
   "files": [
     "lib"
