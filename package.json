@@ -1,6 +1,6 @@
 {
   "name": "@ioa/validator",
-  "version": "12.0.0",
+  "version": "13.0.0",
   "type": "module",
   "description": "ioa / koa 中间件数据验证器",
   "scripts": {
@@ -10,15 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "typea": "^5.3.1"
+    "typea": "^7.2.0"
   },
   "files": [
     "lib"
-  ],
-  "devDependencies": {
-    "@ioa/config": "^12.0.0",
-    "@ioa/koa": "^12.0.4",
-    "axios": "^0.21.1",
-    "ioa": "^12.0.3"
-  }
+  ]
 }

@@ -4,6 +4,6 @@ const app = ioa.app();
 
 app.component("@ioa/koa");
 
-app.import({
-   "middleware": false,
-});
+// app.import({
+//    "middleware": false,
+// });

@@ -11,7 +11,7 @@ npm install ioa/validator
 ```js
 // 声明组件
 export default {
-  "components": [
+  "component": [
     "@ioa/config",
     "@ioa/koa",
     "@ioa/validator"

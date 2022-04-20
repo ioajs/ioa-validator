@@ -1,3 +1,3 @@
-import ioa from 'ioa';
+import { createApp } from 'ioa';
 
-ioa.apps("./main", "./user");
+await createApp({ main: "./main", user: "./user" });

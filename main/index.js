@@ -1,5 +1,5 @@
 export default {
-  components: [
+  component: [
     "@ioa/config",
     "@ioa/koa",
     "./lib"

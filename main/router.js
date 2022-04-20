@@ -1,10 +1,10 @@
-import ioa from 'ioa';
+import { main } from 'ioa';
 
-const { router, middleware } = ioa.app();
+const { router } = main;
 
-const { validator } = middleware;
+const { validator } = main.middleware;
 
-router.get('/', validator('home', true), 'home');
+router.get('/', validator('home'), 'home');
 
 router.get('/test', 'test');
 
